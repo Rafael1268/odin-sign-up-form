@@ -32,6 +32,12 @@ h3 {
   margin-top: 35px;
 }
 
+h6 {
+  position: fixed;
+  color: rgb(251, 54, 54);
+  font-size: 1.05rem;
+}
+
 p {
   color: white;
   font-size: 1.3rem;
