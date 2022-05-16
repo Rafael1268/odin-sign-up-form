@@ -23,12 +23,14 @@ h1 {
 h2 {
   color: white;
   font-size: 3rem;
-  margin-top: 25px;
+  margin-left: 35px;
+  padding-top: 35px;
 }
 
 h3 {
   color: white;
   font-size: 1.3rem;
+  margin-left: 35px;
   margin-top: 35px;
 }
 
@@ -90,7 +92,8 @@ button:hover {
 
 .bg-container {
   background-image: url(img/background.jpg);
-  background-size: cover; 
+  background-size: cover;
+  background-position-y: -105px;
   width: 40vw;
   height: 100vh;
   display: flex;
@@ -121,14 +124,17 @@ button:hover {
 .top-form {
   background-color: rgb(0, 0, 0);
   height: var(--top-form-height);
-  padding: 35px;
 }
 
 /* Middle section */
 .main-form {
   background-color: rgb(0, 0, 0);
   height: var(--main-form-height);
-  padding: 35px;
+}
+
+#signupForm {
+  padding-left: 35px;
+  padding-top: 80px;
 }
 
 form {
@@ -150,5 +156,14 @@ form div label {
 .bottom-form {
   background-color: rgb(0, 0, 0);
   height: var(--bottom-form-height);
-  padding: 35px;
 }
+
+.bottom-form p {
+  margin-left: 35px;
+}
+
+#submitBtn {
+  margin-left: 35px;
+  margin-top: 150px;
+}
+
